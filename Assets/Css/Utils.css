@@ -1,0 +1,48 @@
+.button {
+  padding: 2px;
+  color: white;
+  border: transparent solid 1px;
+}
+.button:hover {
+  border: white solid 1px;
+  cursor: pointer;
+}
+.text-gray {
+  color: #ccc;
+}
+.flex {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.text-small {
+  font-size: 0.75rem;
+}
+.font-thin {
+  font-weight: 200;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-heavy {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-italic {
+  font-style: italic;
+}
+.text-regular {
+  font-size: 0.9rem;
+}
+.display-inblock {
+  display: inline-block;
+}

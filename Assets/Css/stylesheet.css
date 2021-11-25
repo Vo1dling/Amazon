@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_Th.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_ThIt.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_Lt.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_LtIt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_Rg.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_RgIt.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/Amazon-Ember-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/Amazon-Ember-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_He.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_HeIt.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_Bd.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("/assets/fonts/AmazonEmber_BdIt.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember";
+  letter-spacing: -0.1px;
+  word-spacing: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #131921;
+  width: 100%;
+  height: 3.73rem;
+}
+nav {
+  background-color: #232f3e;
+  width: 100%;
+  height: 2.5rem;
+}
+.geo-location {
+  width: 4.5%;
+}
+.geo-location .placeholder {
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin-left: 1.4rem;
+}
+.geo-location .location {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+.geo-location .location-container {
+  margin-top: -5px;
+}
+.search-bar {
+  width: 60%;
+  height: 65%;
+  background: white;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search-bar .category-button,
+.search-bar .search-button {
+  height: 100%;
+  width: 5%;
+  background: #f3f3f3;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 0.5px solid #ccc;
+}
+.search-bar .category-button p {
+  font-size: 0.8rem;
+}
+.search-bar .category-button p i {
+  margin-left: 5px;
+}
+.search-bar .search-button {
+  width: 4%;
+  background: #febd69;
+  border-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0.5px solid #febd69;
+}
+.language {
+  flex-direction: row;
+  width: 2.5%;
+}
+.language img {
+  margin-top: 0.6rem;
+  margin-right: 0.2rem;
+}
+.language i {
+  color: rgba(220, 220, 220, 0.8);
+  margin-top: 1rem;
+}
+.sign-in,
+.returns {
+  color: #fff;
+  align-items: unset;
+  padding: 10px;
+}
+.sign-in i {
+  color: rgba(220, 220, 220, 0.8);
+}
+.cart {
+  width: 5%;
+  flex-direction: row;
+  position: relative;
+}
+.cart h3 {
+  margin-top: 0.6rem;
+}
+.cart p {
+  color: #f08804;
+  position: absolute;
+  top: -5%;
+  left: 22%;
+}
+.nav-content {
+  width: 40%;
+  font-size: 0.9rem;
+}
