@@ -1,6 +1,5 @@
 .button {
   padding: 2px;
-  color: white;
   border: transparent solid 1px;
 }
 .button:hover {
@@ -45,4 +44,26 @@
 }
 .display-inblock {
   display: inline-block;
+}
+.white-text {
+  color: white;
+}
+.small-img {
+  width: 75%;
+
+  padding: 0 0.4rem;
+  border: #a2a6ac 1px solid;
+  margin-top: 0.5vh;
+  cursor: pointer;
+}
+.small-img:hover {
+  border: #f08804 2px solid;
+}
+.img6 {
+  width: 75%;
+
+  padding: 0.4rem 0;
+  border: #a2a6ac 1px solid;
+  margin-top: 0.5vh;
+  cursor: pointer;
 }

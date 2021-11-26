@@ -10,6 +10,7 @@
     ></script>
     <link rel="stylesheet" href="/Assets/Css/Utils.css" />
     <link rel="stylesheet" href="/Assets/Css/stylesheet.css" />
+
     <title>
       Amazon.com: Good Smile League of Legends: Elementalist Lux Non-Scale PVC
       Figure,Multicolor : Toys & Games
@@ -18,9 +19,7 @@
   <body>
     <header>
       <div class="logo-container">
-        <a href="" class="button"
-          ><img src="/Assets/Images/AmazonLogo.png" alt=""
-        /></a>
+        <img class="button" src="/Assets/Images/AmazonLogo.png" alt="" />
       </div>
       <div class="geo-location button">
         <h2 class="placeholder">Deliver to</h2>
@@ -55,36 +54,131 @@
           <h2 class="text-regular display-inblock">& Orders</h2>
         </div>
       </div>
-      <div class="cart button">
+      <div class="cart button white-text">
         <p class="counter font-bold">0</p>
         <img src="/Assets/Images/Cart.png" alt="Cart Icon" />
         <h3 class="display-inblock text-regular">Cart</h3>
       </div>
     </header>
     <nav>
-      <div class="nav-content flex">
+      <div class="nav-content white-text flex">
         <div class="all-menu button">
           <p><i class="fas fa-bars"></i> All</p>
         </div>
-        <div class="deals button">
+        <div class="button">
           <p>Today's Deals</p>
         </div>
-        <div class="customer button">
+        <div class="button">
           <p>Customer Service</p>
         </div>
-        <div class="registry button">
+        <div class="button">
           <p>Registry</p>
         </div>
-        <div class="gift-cards button">
+        <div class="button">
           <p>Gift Cards</p>
         </div>
-        <div class="sell button">
+        <div class="button">
           <p>Sell</p>
         </div>
-        <div class="local-delivery button">
+        <div class="button">
           <p>Local Delivery in Israel</p>
         </div>
       </div>
     </nav>
+    <div class="gift-nav">
+      <div class="gift-content flex">
+        <div>
+          <p>Toys & Games</p>
+        </div>
+        <div>
+          <p>Holiday Toy List</p>
+        </div>
+        <div>
+          <p>Shop Toys by Age</p>
+        </div>
+        <div>
+          <p>Shop Toys by Character</p>
+        </div>
+        <div>
+          <p>Shop Best Selling Toys</p>
+        </div>
+        <div>
+          <p>Shop Newly Released Toys</p>
+        </div>
+        <div>
+          <p>Shop Amazon Exclusive Toys</p>
+        </div>
+        <div>
+          <p>Shop Toys Deals</p>
+        </div>
+        <div>
+          <p>Create a Birthday Gift List</p>
+        </div>
+        <div>
+          <p>Create a Holiday Gift List</p>
+        </div>
+      </div>
+    </div>
+    <div class="ad flex">
+      <img src="/Assets/Images/AmazonAd.jpg" alt="Ad banner" />
+    </div>
+    <div class="back button">
+      <p>< Back to results</p>
+    </div>
+    <div class="product">
+      <div class="product-small-img">
+        <img
+          class="small-img"
+          src="/Assets/Images/Lux1.jpg"
+          alt=""
+          onmouseover="myFunction(this)"
+        />
+        <img
+          class="small-img"
+          src="/Assets/Images/Lux2.jpg"
+          alt=""
+          onmouseover="myFunction(this)"
+        />
+        <img
+          class="small-img"
+          src="/Assets/Images/Lux3.jpg"
+          alt=""
+          onmouseover="myFunction(this)"
+        />
+        <img
+          class="small-img"
+          src="/Assets/Images/Lux4.jpg"
+          alt=""
+          onmouseover="myFunction(this)"
+        />
+        <img
+          class="small-img"
+          src="/Assets/Images/Lux5.jpg"
+          alt=""
+          onmouseover="myFunction(this)"
+        />
+        <img
+          class="img6"
+          src="/Assets/Images/Lux6.jpg"
+          alt=""
+          onmouseover="myFunction(this)"
+        />
+        <img
+          class="small-img"
+          src="/Assets/Images/Lux7.jpg"
+          alt=""
+          onmouseover="myFunction(this)"
+        />
+      </div>
+      <div class="img-container">
+        <img id="imageBox" src="/Assets/Images/Lux1.jpg" alt="" />
+      </div>
+    </div>
+    <script>
+      function myFunction(smallImg) {
+        var fullImg = document.getElementById("imageBox");
+        fullImg.src = smallImg.src;
+      }
+    </script>
   </body>
 </html>
