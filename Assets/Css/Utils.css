@@ -10,13 +10,47 @@
   color: #565959;
 }
 .flex {
-  height: 80%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
+.small-img {
+  border: #a2a6ac 1px solid;
+  margin-top: 0.5vh;
+  cursor: pointer;
+}
+.small-img:hover {
+  border: #f08804 2px solid;
+}
+.dollar {
+  font-size: 1.15rem;
+  color: #b12704;
+}
+.link-button {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #267d91;
+}
+.link-button:hover {
+  color: #c7511f;
+  cursor: pointer;
+}
+.link-button i {
+  color: black;
+}
+.text {
+  padding-bottom: 1.5vh;
+}
+.text li {
+  margin-bottom: 0.4vh;
+  margin-left: 1vw;
+}
+.gap {
+  margin-top: 1vh;
+}
 .text-small {
-  font-size: 0.93rem;
+  font-size: 0.85rem;
 }
 .font-thin {
   font-weight: 200;
@@ -47,35 +81,4 @@
 }
 .white-text {
   color: white;
-}
-.small-img {
-  width: 75%;
-
-  padding: 0 0.4rem;
-  border: #a2a6ac 1px solid;
-  margin-top: 0.5vh;
-  cursor: pointer;
-}
-.small-img:hover {
-  border: #f08804 2px solid;
-}
-.img6 {
-  width: 75%;
-
-  padding: 0.4rem 0;
-  border: #a2a6ac 1px solid;
-  margin-top: 0.5vh;
-  cursor: pointer;
-}
-.dollar {
-  font-size: 1.15rem;
-  color: #b12704;
-}
-.link-button {
-  font-size: 0.9rem;
-  color: #267d91;
-}
-.link-button:hover {
-  color: #c7511f;
-  cursor: pointer;
 }
