@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 .text-gray {
-  color: #ccc;
+  color: #565959;
 }
 .flex {
   height: 80%;
@@ -16,7 +16,7 @@
   justify-content: space-evenly;
 }
 .text-small {
-  font-size: 0.75rem;
+  font-size: 0.93rem;
 }
 .font-thin {
   font-weight: 200;
@@ -65,5 +65,17 @@
   padding: 0.4rem 0;
   border: #a2a6ac 1px solid;
   margin-top: 0.5vh;
+  cursor: pointer;
+}
+.dollar {
+  font-size: 1.15rem;
+  color: #b12704;
+}
+.link-button {
+  font-size: 0.9rem;
+  color: #267d91;
+}
+.link-button:hover {
+  color: #c7511f;
   cursor: pointer;
 }
