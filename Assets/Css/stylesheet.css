@@ -96,7 +96,7 @@ nav {
 }
 .geo-location .location {
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   margin-right: 1.5rem;
   display: inline-block;
 }
@@ -224,16 +224,18 @@ nav {
   width: 30rem;
   line-height: 2rem;
 }
-.brand-link {
+.brand-link,
+.share {
   font-size: 0.9rem;
   color: #267d91;
 }
-.brand-link:hover {
+.brand-link:hover,
+.share:hover {
   text-decoration: underline;
   color: #c7511f;
   cursor: pointer;
 }
-hr {
+.horizontal-line {
   margin-top: 1.25vh;
   margin-bottom: 1vh;
   height: 1px;
@@ -254,6 +256,7 @@ hr {
   border: 1px solid #d5d9d9;
   margin-left: 1vw;
   border-radius: 5px;
+  margin-bottom: 10vh;
 }
 .release-date {
   font-size: 1.15rem;
@@ -299,4 +302,55 @@ hr {
 }
 .recepit-label {
   font-size: 0.9rem;
+}
+.share {
+  width: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3vh;
+  margin-left: 1vw;
+}
+footer {
+  margin-left: 10vw;
+  width: 78vw;
+  height: 27.0625rem;
+}
+footer hr {
+  margin-top: 1.25vh;
+  margin-bottom: 1vh;
+  height: 1px;
+  background-color: #c4c4c4;
+  border: none;
+}
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featured-text {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 1.15rem;
+  color: #cc6600;
+}
+.page-count {
+  font-size: 0.9rem;
+}
+.featured-items i {
+  background-color: #f7fafa;
+  border: #aaaaaa 1px solid;
+  padding: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card {
+  width: 10vw;
+  margin-left: 2vw;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+.text-xsmall {
+  font-size: 0.75rem;
 }
