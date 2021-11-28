@@ -95,3 +95,24 @@
 .small-dollar {
   font-size: 0.6rem;
 }
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+.property-label {
+  width: 24%;
+  padding-right: 2px;
+}
+.minimized {
+  height: 11.25rem;
+}
+.display-inblock {
+  display: inline-block;
+}
+.display-block {
+  display: block;
+}
